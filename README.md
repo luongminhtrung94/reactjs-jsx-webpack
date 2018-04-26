@@ -1,1 +1,1 @@
-# reactjs-jsx-webpack
+# structure-pug-sass-webpack
