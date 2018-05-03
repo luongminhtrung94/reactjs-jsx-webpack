@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
 
 
-export default class Hello extends Component {
+export default class Clock extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            tick: "asd"
+            tick: "Time"
         };
     }
 
@@ -22,11 +21,8 @@ export default class Hello extends Component {
     render() {
       return (
         <div>
-          Hello from react es6  {this.state.tick}
+            {this.state.tick}
         </div>
       );
     }
 }
-
-
-render(<Hello />, document.getElementById('app'));
